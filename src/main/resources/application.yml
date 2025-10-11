@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: sentiment-chat
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sentimentchat
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#  security:
+#    user:
+#      name: vibhor
+#      password: vibhor
+
+
+jwt:
+  secret: mySecretKeyForJWTTokenGenerationMustBeLongEnough256Bits
+  expiration: 86400000
