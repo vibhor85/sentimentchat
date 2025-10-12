@@ -1,7 +1,6 @@
 package com.example.sentimentchat.controller;
 
 import com.example.sentimentchat.dtos.room.DirectRoomRequest;
-import com.example.sentimentchat.dtos.room.DirectRoomResponse;
 import com.example.sentimentchat.dtos.room.RoomRequest;
 import com.example.sentimentchat.dtos.room.RoomResponse;
 import com.example.sentimentchat.service.RoomService;
